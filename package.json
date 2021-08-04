@@ -34,19 +34,19 @@
   },
   "dependencies": {
     "bootstrap": "^3.4.1",
-    "broadcast-channel": "^3.7.0",
+    "broadcast-channel": "^4.2.0",
     "jquery": "^3.6.0",
-    "js-cookie": "^2.2.1"
+    "js-cookie": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.14.7",
-    "codecov": "^3.8.2",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "codecov": "^3.8.3",
     "commitizen": "^4.2.4",
-    "eslint": "^7.29.0",
+    "eslint": "^7.32.0",
     "git-cz": "^4.7.6",
-    "husky": "^6.0.0",
-    "jest": "^27.0.5",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
     "jsdoc-to-markdown": "^7.0.1",
     "semantic-release": "^17.4.4"
   }
