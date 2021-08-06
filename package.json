@@ -29,35 +29,25 @@
     "test": "jest",
     "report-coverage": "cat ./coverage/coverage-final.json | codecov",
     "docs": "jsdoc2md src/index.js > API.md",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "husky install"
   },
   "dependencies": {
     "bootstrap": "^3.4.1",
-    "broadcast-channel": "^3.3.0",
-    "jquery": "3.4.1",
-    "js-cookie": "^2.2.1"
+    "broadcast-channel": "^4.2.0",
+    "jquery": "^3.6.0",
+    "js-cookie": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
-    "@babel/preset-env": "^7.12.7",
-    "codecov": "^3.8.1",
-    "commitizen": "^4.2.2",
-    "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.14.0",
-    "git-cz": "^4.7.5",
-    "husky": "^4.3.0",
-    "jest": "^26.6.3",
-    "jsdoc-to-markdown": "^6.0.1",
-    "semantic-release": "^17.3.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run test"
-    }
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "codecov": "^3.8.3",
+    "commitizen": "^4.2.4",
+    "eslint": "^7.32.0",
+    "git-cz": "^4.7.6",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "jsdoc-to-markdown": "^7.0.1",
+    "semantic-release": "^17.4.4"
   }
 }
